@@ -34,7 +34,7 @@ In addition to this, we've created a `query` utility, which uses [Hydrogen's cac
 
 It's possible to make calls to the Sanity API either with `query`:
 
-```tsx
+```ts
 import {json, type LoaderFunctionArgs} from '@shopify/remix-oxygen';
 import type {SanityProductPage} from '~/lib/sanity';
 
